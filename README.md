@@ -14,3 +14,16 @@ ce dossier constituent uniquement le point de départ du TP.
 python app.py
 ```
 
+"""MesuresLab V0.1 : saisir et afficher une tension."""
+
+
+def main():
+    tension = float(input("Tension mesurée en V : "))
+    print(f"Tension enregistrée : {tension:.2f} V")
+
+
+if __name__ == "__main__":
+    main()
+
+
+
